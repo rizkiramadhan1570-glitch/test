@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hubungi Saya | Portofolio Pribadi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= 1. HEADER & NAVIGATION ================= -->
+  <header>
+    <div class="header-container">
+      <div class="brand-logo">
+        <span class="brand-badge">LD</span>
+        <div class="brand-text">
+          <h1>Portofolio Digital</h1>
+          <span>Fakultas Ilmu Pendidikan - UNIMED</span>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang Saya</a></li>
+          <li><a href="kemampuan.html">Kemampuan</a></li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+          <li><a href="pengalaman.html">Pengalaman</a></li>
+          <li><a href="kontak.html" class="active">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= 2. MAIN CONTENT ================= -->
+  <main>
+    <div class="layout-grid">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="profile-card">
+          <div class="avatar-placeholder">M</div>
+          <h3>Hubungi Saya</h3>
+          <p class="role">Saluran Komunikasi Resmi</p>
+          <ul class="sidebar-info">
+            <li><strong>Email Akademik:</strong> mahasiswa@mhs.unimed.ac.id</li>
+            <li><strong>Kampus:</strong> FIP Universitas Negeri Medan</li>
+            <li><strong>Media Sosial Profesional:</strong> LinkedIn & GitHub</li>
+            <li><strong>Waktu Respons:</strong> Hari Kerja (08.00 - 17.00 WIB)</li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- CONTENT AREA -->
+      <section class="content-area">
+        <h2 class="page-title">Kontak & Kolaborasi</h2>
+        <p class="page-subtitle">Silakan kirimkan pesan atau diskusi terkait proyek akademik dan peluang kemitraan.</p>
+
+        <div class="notice-box">
+          <strong>Perlindungan Data Pribadi:</strong> Sesuai petunjuk praktikum, website ini hanya membagikan kontak profesional publik. Formulir di bawah ini dapat digunakan tanpa memerlukan login.
+        </div>
+
+        <!-- Formulir Pesan -->
+        <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan simulasi Anda telah terkirim.');">
+          <div class="form-group">
+            <label for="sender-name">Nama Lengkap Pengunjung</label>
+            <input type="text" id="sender-name" class="form-control" placeholder="Masukkan nama Anda..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="sender-email">Alamat Email Pengunjung</label>
+            <input type="email" id="sender-email" class="form-control" placeholder="nama@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="sender-subject">Subjek Pesan</label>
+            <input type="text" id="sender-subject" class="form-control" placeholder="Misal: Diskusi Portofolio / Peluang Kerjasama" required>
+          </div>
+
+          <div class="form-group">
+            <label for="sender-message">Isi Pesan</label>
+            <textarea id="sender-message" class="form-control" placeholder="Tuliskan pesan atau masukan Anda di sini..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-submit">Kirim Pesan Sekarang</button>
+        </form>
+
+        <div style="margin-top: 2rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem; color: var(--text-main);">Tautan Profil Profesional</h4>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+            Anda juga dapat terhubung melalui jejaring karir resmi berikut:
+          </p>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style="font-weight: 600; background: #e0f2fe; color: #0284c7; padding: 0.4rem 0.8rem; border-radius: 6px;">LinkedIn &nearr;</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" style="font-weight: 600; background: #f3f4f6; color: #374151; padding: 0.4rem 0.8rem; border-radius: 6px;">GitHub &nearr;</a>
+            <a href="https://unimed.ac.id" target="_blank" rel="noopener noreferrer" style="font-weight: 600; background: #dcfce7; color: #15803d; padding: 0.4rem 0.8rem; border-radius: 6px;">Portal UNIMED &nearr;</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ================= 3. FOOTER ================= -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>Portofolio Pribadi</h4>
+        <p>Terima kasih telah mengunjungi website portofolio pribadi saya.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang Saya</a></li>
+          <li><a href="kemampuan.html">Kemampuan</a></li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontak Fakultas</h4>
+        <p>Fakultas Ilmu Pendidikan UNIMED<br>fip@unimed.ac.id<br>(061) 6613365 Medan</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Portofolio Mahasiswa FIP UNIMED.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
